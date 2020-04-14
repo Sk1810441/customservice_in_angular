@@ -1,0 +1,52 @@
+<!-- 
+
+<header>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" routerLink= '/'>Home</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/about">About us</a></li>
+            <li class="nav-item" ><a class="nav-link"routerLink="/service">service</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact us</a></li>
+        </ul>
+    </nav>
+</header>
+<router-outlet></router-outlet> -->
+
+
+<header class="ld_header_section">
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 logo_div">
+			<div class="ld_logo">
+				<a href="index.html" class="labour_logo">
+					<img src="images/logo.png" alt="labour-directory-logo">
+				</a>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-4 col-xs-2 menu_div">
+			<div class="menu_toggle"><span></span><span></span><span></span></div>
+			<nav class="ld_menu_wrapper">
+				<div class="menu_close"><span></span><span></span></div>
+				<ul class="ld_nav">
+					<li class="active"><a routerLink="/">Home</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="category.html">Category</a></li>
+					<li><a routerLink="/about">About</a></li>
+					<li><a routerLink="/contact">Contact</a></li>
+					<li><a href="Registation.html">Registation</a></li>
+
+				</ul>
+			</nav>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 search_div">
+			<div class="ld_right_menu">
+				<form class="search-form">
+					<input type="text" class="search_input">
+					<a href="#" class="search_btn"><i class="fa fa-search" aria-hidden="true"></i></a>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</header><!-- ======= Header section ========= -->
+<router-outlet></router-outlet>
